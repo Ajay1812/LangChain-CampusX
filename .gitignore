@@ -193,4 +193,11 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-db
+# macOS system files
+.DS_Store
+
+# ChromaDB and other vector store database files
+*.sqlite3
+*.bin
+*/db/
+*/my_chroma_db/
